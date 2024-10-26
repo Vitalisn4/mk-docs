@@ -22,4 +22,4 @@ markdown_extensions:
 # Repository configuration (for the edit link on pages)
 repo_name: Vitalisn4/mk-docs
 repo_url: https://github.com/Vitalisn4 /mk-docs
-edit_uri: edit/main/docs/
+edit_uri: edit/master/docs/
