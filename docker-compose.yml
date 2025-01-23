@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  mkdocs:
+    build: .
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    environment:
+      - MKDOCS_PORT=8000
+    command: mkdocs serve --dev-addr=0.0.0.0:8000

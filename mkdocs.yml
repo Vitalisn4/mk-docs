@@ -5,7 +5,7 @@ site_url: 'https://Vitalisn4.github.io/mk-docs'  # Change this to your site's UR
 
 # Theme settings
 theme:
-  name: material
+  name: mkdocs
 
 # Navbar settings (site structure)
 nav:
