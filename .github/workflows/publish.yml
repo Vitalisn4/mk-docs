@@ -13,7 +13,7 @@ jobs:
 
      steps:
         # checkout the repository code
-     - name: Check repository 
+     - name: Checkout code
        uses: actions/checkout@v3
 
      - name: Login to Container Registry
@@ -29,5 +29,5 @@ jobs:
           context: .
           push: true
           tags:
-           ghcr.io/${{ vars.REPOSITORY }}:latest
-           ghcr.io/${{ vars.REPOSITORY }}:${{ github.run_number }}
+           ghcr.io/${{ github.repository }}:latest
+           ghcr.io/${{ github.repository }}:${{ github.run_number }}
